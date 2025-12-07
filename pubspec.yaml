@@ -1,6 +1,19 @@
+name: wrld_player
+description: A local music/video player
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  video_player: ^2.5.1
+  audioplayers: ^2.0.4
+
 flutter:
   uses-material-design: true
-
   assets:
     - assets/videos/
     - assets/music/
