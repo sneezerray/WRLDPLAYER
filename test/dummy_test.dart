@@ -4,4 +4,4 @@ void main() {
   test('dummy test', () {
     expect(1 + 1, 2);
   });
-}/
+}
